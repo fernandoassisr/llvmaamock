@@ -1,6 +1,13 @@
 # llvmaamock
 llvm alias analysis pass mock
-
+== Build
+```
+cd 3.9
+mkdir build
+cd build
+cmake ..
+make
+```
 == Commandline
 ```
 opt -load ./lib/libllvmAAmock.so -debug-pass=Structure -llvmaamock -llvmaamockfp -basicaa test.ll 
