@@ -1,0 +1,6 @@
+#include "gtest/gtest.h"
+
+void main()
+{
+  EXPECT_EQ(1u, 1u);
+}
